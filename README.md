@@ -2,7 +2,7 @@
 
 Personal Website
 Contains links to
-  - Github Progile
+  - Github Profile
   - Twitter profile
   - Linkedin profile
   
