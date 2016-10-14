@@ -9,4 +9,4 @@ Contains links to
 Links to
   - Skill set
   - Projects
-  - Backgroung Information
+  - Background Information
