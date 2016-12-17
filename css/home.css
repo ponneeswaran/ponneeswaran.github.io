@@ -1,0 +1,49 @@
+.navbar{
+    background-color: #111b87;
+    border-width: 0px !important;
+    margin-bottom: 0px;
+}
+
+.navbar li a, .navbar .navbar-brand {
+    color: #fff !important;
+}
+
+.navbar-nav li a:hover, .navbar-nav li.active a {
+    color: #111b87 !important;
+    background-color: #fff !important;
+}
+
+footer { text-align: center; }
+footer ul { list-style: none; padding: 0px;}
+footer ul li { display: inline; padding: 0px 20px;}
+
+.jumbotron{
+    padding: 0px;
+    height: 400px;
+}
+
+.polaroid {
+    width: 225px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    position: relative;
+    top: -150px;
+    margin-left: 100px;
+}
+
+.logo-small {
+    color: #111b87;
+    font-size: 50px;
+}
+
+.logo {
+    color: #111b87;
+    font-size: 200px;
+}
+
+.container-fluid {
+    padding: 60px 100px;
+}
+
+.bg-grey {
+    background-color: #f6f6f6;
+}
