@@ -7,7 +7,7 @@ function App() {
     <div id="container-wrap">
       <div className='row'>
         <Sidebar />
-        <div id="main-page" className='col-sm-10'>
+        <div id="main-page" className='col-sm-9'>
           <Introduction></Introduction>
           {/* <About></About>
           <Timeline></Timeline> */}
