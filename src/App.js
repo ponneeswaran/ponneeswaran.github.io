@@ -1,18 +1,16 @@
 import './App.css';
-import Sidebar from './components/Sidebar';
+import Navbar from './components/Navbar';
 import Introduction from './components/Introduction';
 
 function App() {
   return (
     <div id="container-wrap">
-      <div className='row'>
-        <Sidebar />
-        <div id="main-page" className='col-sm-9'>
+        <Navbar />
+        
           <Introduction></Introduction>
           {/* <About></About>
           <Timeline></Timeline> */}
-        </div>
-      </div>
+        
     </div>
   );
 }
