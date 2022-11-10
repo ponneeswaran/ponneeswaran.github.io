@@ -1,6 +1,11 @@
 .App {
   text-align: center;
-  margin-top: 100px;
+  display: revert;
+}
+
+.header-buffer {
+  height: 75px;
+  background-color: chartreuse;
 }
 
 .App-logo {
