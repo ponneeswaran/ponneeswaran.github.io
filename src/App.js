@@ -6,10 +6,12 @@ function App() {
   return (
     <div id="container-wrap">
       <div className='row'>
-        <Navbar />
+        <div className="col-sm-3" style={{padding : 0}}>
+          <Navbar />
+        </div>
         {/* <div className='header-buffer'></div> */}
         <div className='col-sm-9' style={{padding : 0}}>
-        <Introduction></Introduction>
+          <Introduction></Introduction>
         {/* <About></About>
         <Timeline></Timeline> */}
         </div>

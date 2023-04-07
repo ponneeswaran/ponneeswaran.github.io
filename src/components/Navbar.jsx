@@ -31,20 +31,19 @@ export default class Navbar extends Component {
             //         </div>
             //     </div>
             // </nav>  
-            <div className="col-sm-3" style={{padding : 0}}>
-                <nav className="navbar navbar-light bg-light">
-                    <button className="navbar-toggler" style={{marginLeft : 20}} type="button" onClick={ this.toggleMenu }>
-                        <span className="navbar-toggler-icon"></span>
-                    </button>
-                    <div className={"collapse justify-content-center navbar-collapse " + show} style={{marginLeft : 20}}>
-                        <div className="navbar-nav">
-                            <a className="nav-item nav-link active" href="/">Home <span className="sr-only">(current)</span></a>
-                            <a className="nav-item nav-link" href="/">Features</a>
-                            <a className="nav-item nav-link" href="/">Pricing</a>
-                        </div>
+            
+            <nav className="navbar navbar-light bg-light">
+                <button className="navbar-toggler" style={{marginLeft : 20}} type="button" onClick={ this.toggleMenu }>
+                    <span className="navbar-toggler-icon"></span>
+                </button>
+                <div className={"collapse justify-content-center navbar-collapse " + show} style={{marginLeft : 20}}>
+                    <div className="navbar-nav">
+                        <a className="nav-item nav-link active" href="/">Home <span className="sr-only">(current)</span></a>
+                        <a className="nav-item nav-link" href="/">Features</a>
+                        <a className="nav-item nav-link" href="/">Pricing</a>
                     </div>
-                </nav>
-            </div>
+                </div>
+            </nav>
         );  
     }
 }
