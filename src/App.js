@@ -8,7 +8,7 @@ function App() {
       <div className='row'>
         <Navbar />
         {/* <div className='header-buffer'></div> */}
-        <div className='col-sm-9'>
+        <div className='col-sm-9' style={{padding : 0}}>
         <Introduction></Introduction>
         {/* <About></About>
         <Timeline></Timeline> */}
