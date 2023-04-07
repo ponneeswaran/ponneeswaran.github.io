@@ -1,17 +1,21 @@
-import logo from './logo.svg';
 import './App.css';
-import Button from './components/Button';
+import Navbar from './components/Navbar';
+import Introduction from './components/Introduction';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <Button />
-      </header>
+    <div id="container-wrap">
+      <div className='row'>
+        <div className="col-sm-3" style={{padding : 0}}>
+          <Navbar />
+        </div>
+        {/* <div className='header-buffer'></div> */}
+        <div className='col-sm-9' style={{padding : 0}}>
+          <Introduction></Introduction>
+        {/* <About></About>
+        <Timeline></Timeline> */}
+        </div>
+      </div>
     </div>
   );
 }
