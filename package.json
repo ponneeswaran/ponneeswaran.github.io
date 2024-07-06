@@ -1,7 +1,7 @@
 {
   "homepage": "https://ponneeswaran.github.io/",
   "name": "ponneeswaran.github.io",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "private": true,
   "dependencies": {
     "@emailjs/browser": "^4.3.3",
