@@ -1,34 +1,25 @@
 import React from 'react'
 import './header.css'
 import CTA from './CTA'
-import me from '../../assets/Ponneeswaran.jpg'
 import HeaderSocials from './HeaderSocials'
+import { Col, Row, Container, Image } from 'react-bootstrap/esm';
+import 'bootstrap/dist/css/bootstrap.css';
+
 
 const Header = () => {
-  return (
-    
-    
+  return (    
       <header id='home'>
-
         <div className="container header__container">
-
-          <h5>Hello, I'm</h5>
-          <h1>Ponneeswaran Natarajan</h1>
-          <h5 className="text-light">Software Engineer / Senior Lead</h5>
-          <CTA/>
-          <HeaderSocials/>
-
-          <div className="me">
-
-            <img src={me} alt='me'/>
-          </div>
-
-          <a href="#contacts" className='scroll__down'>Scroll Down</a>
+          <Container>
+            
+            <h5>Hello, I'm</h5>
+            <h1>Ponneeswaran Natarajan</h1>
+            <h5 className="text-light">Senior Software Lead</h5>
+            <CTA/>
+            <HeaderSocials/>
+          </Container>
         </div>
-      </header>
-
-    
-    
+      </header>   
   )
 }
 

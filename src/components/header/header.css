@@ -1,7 +1,7 @@
 header{
 
     height: 100vh;
-    padding-top: 7rem;
+    /* padding-top: 7rem; */
     overflow: hidden;
 }
 
@@ -10,6 +10,13 @@ header{
     text-align: center;
     height: 100%;
     position: relative;
+    background-image:
+                linear-gradient(45deg,
+                    rgba(245, 70, 66, 0.75),
+                    rgba(8, 83, 156, 0.75)), 
+                      url('../../assets/IMG_8645.JPG');
+    background-position: center;
+    background-size: contain, cover;
 }
 
 /* Applying CSS for CTA */
@@ -31,7 +38,7 @@ header{
     align-items: center;
     gap: 0.8rem;
     position: absolute;
-    left: 0;
+    right: 10rem;
     bottom: 3rem;
 }
 
