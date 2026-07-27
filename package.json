@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "generate-resume": "node scripts/generate-resume.js"
   },
   "dependencies": {
     "next": "16.2.12",
@@ -20,6 +21,7 @@
     "@types/react-dom": "^19",
     "eslint": "^9",
     "eslint-config-next": "16.2.12",
+    "pdfkit": "^0.19.1",
     "tailwindcss": "^4",
     "typescript": "^5"
   }

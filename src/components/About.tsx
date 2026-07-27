@@ -1,26 +1,68 @@
 const EXPERIENCE = [
   {
-    role: "Placeholder Role \u2014 e.g. Software Engineer",
-    place: "At Placeholder Company",
-    period: "2023 \u2014 Present",
+    role: "Sr Lead Engineer",
+    place: "Simplain Softwares Solutions \u2014 Coimbatore, TN",
+    period: "Jul 2022 \u2014 Present",
   },
   {
-    role: "Placeholder Role \u2014 e.g. Junior Developer",
-    place: "At Placeholder Company",
-    period: "2021 \u2014 2023",
+    role: "Lead Engineer",
+    place: "Brillio \u2014 Bengaluru, KA",
+    period: "Oct 2018 \u2014 Aug 2020",
+  },
+  {
+    role: "Software Dev Eng in Test",
+    place: "Move Inc. \u2014 Santa Clara, CA",
+    period: "May 2017 \u2014 Sep 2018",
+  },
+  {
+    role: "Mobile App Support & Ops Intern",
+    place: "Axway \u2014 Phoenix, AZ",
+    period: "Oct 2016 \u2014 Dec 2016",
+  },
+  {
+    role: "Sr. Systems Engineer",
+    place: "Infosys Technologies Ltd. \u2014 Chennai, TN",
+    period: "Feb 2011 \u2014 Jun 2014",
   },
 ];
 
 const EDUCATION = [
   {
-    title: "Placeholder Degree \u2014 e.g. B.Sc in Computer Science",
-    place: "Placeholder University",
-    period: "2019 \u2014 Present",
+    title: "Master of Computer Science",
+    place: "Arizona State University \u2014 Tempe, AZ",
+    period: "",
   },
   {
-    title: "Placeholder Certificate \u2014 e.g. Web Development",
-    place: "Placeholder Institute",
-    period: "2018 \u2014 2019",
+    title: "B-Tech CSE",
+    place: "Amrita School of Engineering \u2014 Coimbatore, TN",
+    period: "",
+  },
+];
+
+const SKILLS = [
+  {
+    category: "Programming Languages",
+    items: "Java (Core), Android, C, C++, Python, Unix Shell Script",
+  },
+  {
+    category: "Frameworks & Libraries",
+    items: "Spring MVC, Spring Boot, Bootstrap, Liferay, ReactJS, NodeJS",
+  },
+  {
+    category: "Web Technologies",
+    items: "HTML, JavaScript (ES6), JSP, CSS, JSON, jQuery",
+  },
+  {
+    category: "Dev & Build Tools",
+    items: "SVN, Jenkins, NetBeans, Eclipse, Maven, Git, Visual Studio, Unity3D",
+  },
+  {
+    category: "Databases",
+    items: "Oracle, DB2, MySQL, AWS DynamoDB, PostgreSQL",
+  },
+  {
+    category: "Other Tools",
+    items: "Wolfram Mathematica, Titanium+, Jira, TomEE",
   },
 ];
 
@@ -43,13 +85,14 @@ export default function About() {
               </div>
               <div className="flex flex-col gap-4">
                 <p className="max-w-xl text-muted">
-                  Placeholder bio \u2014 I&apos;m Ponneeswaran Natarajan, a
-                  developer who spends free time gaming, creating video
-                  content, and collecting coins from around the world.
-                  Replace this paragraph with your real story.
+                  Full-stack Java developer with approximately 11 years of
+                  experience designing, developing, and managing complex web
+                  applications. Outside of work I enjoy gaming, creating
+                  video content, and collecting coins from around the world.
                 </p>
                 <a
                   href="/resume.pdf"
+                  download
                   className="w-fit rounded-full bg-accent px-5 py-2.5 text-sm font-semibold text-accent-foreground transition-opacity hover:opacity-90"
                 >
                   Download Resume &#8595;
@@ -61,7 +104,7 @@ export default function About() {
               <h3 className="text-sm font-semibold text-accent">&#10022; Experience</h3>
               <ul className="flex flex-col gap-6">
                 {EXPERIENCE.map((item) => (
-                  <li key={item.role} className="flex flex-col gap-1">
+                  <li key={item.role + item.period} className="flex flex-col gap-1">
                     <div className="flex flex-wrap items-center gap-3">
                       <span className="font-semibold">{item.role}</span>
                       <span className="rounded-full border border-border px-2 py-0.5 text-xs text-muted">
@@ -79,13 +122,20 @@ export default function About() {
               <ul className="flex flex-col gap-6">
                 {EDUCATION.map((item) => (
                   <li key={item.title} className="flex flex-col gap-1">
-                    <div className="flex flex-wrap items-center gap-3">
-                      <span className="font-semibold">{item.title}</span>
-                      <span className="rounded-full border border-border px-2 py-0.5 text-xs text-muted">
-                        {item.period}
-                      </span>
-                    </div>
+                    <span className="font-semibold">{item.title}</span>
                     <span className="text-sm text-muted">{item.place}</span>
+                  </li>
+                ))}
+              </ul>
+            </div>
+
+            <div className="flex flex-col gap-6">
+              <h3 className="text-sm font-semibold text-accent">&#10022; Skills</h3>
+              <ul className="flex flex-col gap-3">
+                {SKILLS.map((skill) => (
+                  <li key={skill.category} className="flex flex-col gap-1 sm:flex-row sm:gap-3">
+                    <span className="w-48 shrink-0 font-semibold">{skill.category}</span>
+                    <span className="text-sm text-muted">{skill.items}</span>
                   </li>
                 ))}
               </ul>
@@ -97,19 +147,31 @@ export default function About() {
             <dl className="flex flex-col gap-3 text-sm">
               <div>
                 <dt className="text-muted">Phone</dt>
-                <dd>+00 000 0000 000</dd>
+                <dd>+91-9003977744</dd>
               </div>
               <div>
                 <dt className="text-muted">Email</dt>
-                <dd>hello@ponneeswaran.dev</dd>
+                <dd>Ponneeswaran.Natarajan@asu.edu</dd>
               </div>
               <div>
-                <dt className="text-muted">Website</dt>
-                <dd>www.ponneeswaran.dev</dd>
+                <dt className="text-muted">GitHub</dt>
+                <dd>
+                  <a
+                    href="https://github.com/ponneeswaran"
+                    target="_blank"
+                    rel="noreferrer"
+                    className="hover:text-accent"
+                  >
+                    github.com/ponneeswaran
+                  </a>
+                </dd>
               </div>
               <div>
                 <dt className="text-muted">Address</dt>
-                <dd>Placeholder City, Placeholder Country</dd>
+                <dd>
+                  36 F, Panchayat Office Road, Podanur, Coimbatore, Tamil
+                  Nadu, India - 641023
+                </dd>
               </div>
             </dl>
           </div>
