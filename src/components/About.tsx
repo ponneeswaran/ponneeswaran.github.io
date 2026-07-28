@@ -1,8 +1,13 @@
 const EXPERIENCE = [
   {
+    role: "Technical Lead / Architect",
+    place: "Appex Tech Innovations Pvt Ltd. — Mumbai, MH",
+    period: "Jun 2025 — Present",
+  },
+  {
     role: "Sr Lead Engineer",
-    place: "Simplain Softwares Solutions \u2014 Coimbatore, TN",
-    period: "Jul 2022 \u2014 Present",
+    place: "Simplain Software Solutions — Coimbatore, TN",
+    period: "Jul 2022 — Feb 2025",
   },
   {
     role: "Lead Engineer",
