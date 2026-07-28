@@ -51,7 +51,7 @@ const SKILLS = [
   },
   {
     category: "Frameworks & Libraries",
-    items: "Spring MVC, Spring Boot, Bootstrap, Liferay, ReactJS, NodeJS",
+    items: "Spring MVC, Spring Boot, Bootstrap, Liferay, ReactJS, NextJS, NodeJS",
   },
   {
     category: "Web Technologies",
@@ -59,15 +59,15 @@ const SKILLS = [
   },
   {
     category: "Dev & Build Tools",
-    items: "SVN, Jenkins, NetBeans, Eclipse, Maven, Git, Visual Studio, Unity3D",
+    items: "SVN, Jenkins, NetBeans, Eclipse, Maven, Git, Visual Studio, Unity3D, Google Cloud Functions",
   },
   {
     category: "Databases",
-    items: "Oracle, DB2, MySQL, AWS DynamoDB, PostgreSQL",
+    items: "Oracle, DB2, MySQL, AWS DynamoDB, PostgreSQL, Google FHIR",
   },
   {
     category: "Other Tools",
-    items: "Wolfram Mathematica, Titanium+, Jira, TomEE",
+    items: "Wolfram Mathematica, Titanium+, Jira, TomEE, Kibana",
   },
 ];
 
