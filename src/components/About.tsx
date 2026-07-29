@@ -172,6 +172,32 @@ export default function About() {
                 </dd>
               </div>
               <div>
+                <dt className="text-muted">YouTube</dt>
+                <dd>
+                  <a
+                    href="https://www.youtube.com/@TheWindpacer"
+                    target="_blank"
+                    rel="noreferrer"
+                    className="hover:text-accent"
+                  >
+                    youtube.com/@TheWindpacer
+                  </a>
+                </dd>
+              </div>
+              <div>
+                <dt className="text-muted">Twitch</dt>
+                <dd>
+                  <a
+                    href="https://www.twitch.tv/kongucholan"
+                    target="_blank"
+                    rel="noreferrer"
+                    className="hover:text-accent"
+                  >
+                    twitch.tv/kongucholan
+                  </a>
+                </dd>
+              </div>
+              <div>
                 <dt className="text-muted">Address</dt>
                 <dd>
                   36 F, Panchayat Office Road, Podanur, Coimbatore, Tamil
