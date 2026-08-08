@@ -46,12 +46,6 @@ export default function Hero() {
               vlogger, and numismatist who loves building things, streaming
               gameplay, and collecting coins from around the world.
             </p>
-            <a
-              href="#contact"
-              className="w-fit rounded-full bg-accent px-6 py-3 text-sm font-semibold text-accent-foreground transition-opacity hover:opacity-90"
-            >
-              Start a Project Now &rarr;
-            </a>
           </div>
         </div>
 

@@ -8,12 +8,6 @@ export default function Cta() {
             Surround yourself with an expert
           </h2>
         </div>
-        <a
-          href="mailto:Ponneeswaran.Natarajan@asu.edu"
-          className="w-fit rounded-full bg-accent px-6 py-3 text-sm font-semibold text-accent-foreground transition-opacity hover:opacity-90"
-        >
-          Start a Project Now &rarr;
-        </a>
       </div>
     </section>
   );

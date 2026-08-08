@@ -26,12 +26,6 @@ export default function Header() {
             </a>
           ))}
         </nav>
-        <a
-          href="#contact"
-          className="rounded-full bg-accent px-5 py-2 text-sm font-semibold text-accent-foreground transition-opacity hover:opacity-90"
-        >
-          Start a Project
-        </a>
       </div>
     </header>
   );

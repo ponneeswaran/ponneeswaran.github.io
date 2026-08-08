@@ -29,7 +29,7 @@ export default function Footer() {
             GitHub
           </a>
           <a
-            href="https://www.youtube.com"
+            href="https://www.youtube.com/@TheWindpacer"
             target="_blank"
             rel="noreferrer"
             className="hover:text-foreground"
@@ -37,7 +37,7 @@ export default function Footer() {
             YouTube
           </a>
           <a
-            href="https://www.twitch.tv"
+            href="https://www.twitch.tv/kongucholan"
             target="_blank"
             rel="noreferrer"
             className="hover:text-foreground"

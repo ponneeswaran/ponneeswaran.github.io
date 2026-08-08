@@ -21,19 +21,13 @@ export default function Services() {
   return (
     <section id="services" className="border-b border-border">
       <div className="mx-auto max-w-6xl px-6 py-20">
-        <div className="mb-12 flex flex-col gap-6 sm:flex-row sm:items-end sm:justify-between">
+        <div className="mb-12 flex flex-col gap-6 sm:flex-row sm:items-end">
           <div className="flex flex-col gap-2">
             <span className="text-sm font-semibold text-accent">&#10022; My Services</span>
             <h2 className="max-w-lg text-3xl font-bold tracking-tight sm:text-4xl">
               What I Can Help You With
             </h2>
           </div>
-          <a
-            href="#contact"
-            className="w-fit rounded-full bg-accent px-5 py-2.5 text-sm font-semibold text-accent-foreground transition-opacity hover:opacity-90"
-          >
-            Start a Project Now &rarr;
-          </a>
         </div>
 
         <ul className="flex flex-col divide-y divide-border border-y border-border">
